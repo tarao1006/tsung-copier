@@ -7,9 +7,11 @@ Pythonのスクリプトと、chrome拡張を提供しています。
 
 ## Usage
 
-1. `js/tsung-copier` を [拡張機能](chrome://extensions) の、 `パッケージ化されていない拡張機能を読み込む` から読み込みます。
+1. `js/tsung-copier` を 拡張機能(chrome://extensions) の、 `パッケージ化されていない拡張機能を読み込む` から読み込みます。
 
 2. Tsungの測定結果を表示するreport.htmlにブラウザでアクセスすると、copyボタンがページ下部に追加されます。そのボタンをクリックすれば、表示しているページ中のテーブルをマークダウン形式に変換し、クリップボードにコピーします。
+
+![Screenshot](img/screencapture.png)
 
 # Python
 
