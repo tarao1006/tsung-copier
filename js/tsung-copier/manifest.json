@@ -1,0 +1,13 @@
+{
+  "name": "Tsung result copier",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Copy the content into a markdown format.",
+  "content_scripts": [{
+    "matches": [
+      "*://*/*/report.html",
+      "http://localhost/*"
+    ],
+    "js": ["main.js"]
+  }]
+}
